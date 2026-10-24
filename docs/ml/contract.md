@@ -24,6 +24,7 @@
 ## 2. Архитектура и ответственность
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"primaryColor":"#ffffff","primaryTextColor":"#1b1d29","primaryBorderColor":"#4f46e5","secondaryColor":"#f0f1f6","tertiaryColor":"#f5f6fa","lineColor":"#8a8fa3","textColor":"#1b1d29","noteBkgColor":"#f0f1f6","noteTextColor":"#5b6070","actorBkg":"#ffffff","actorBorder":"#4f46e5","fontFamily":"Inter"}}}%%
 flowchart LR
     UI[Frontend: XLS/XLSX] -->|POST /api/recommendations| API[Backend controller]
     API --> SVC[Recommendation service]

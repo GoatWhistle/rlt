@@ -86,13 +86,10 @@ for file in backend/migration/*.sql; do clickhouse-client --multiquery < "$file"
 миграций: его ведёт только команда `migrate` из джобы, которая пишет
 контрольные суммы в таблицу `supplier_search.schema_migrations`.
 
-## CI
+## Воркеры
 
 Запуск парсера и локального эмбеддера, ограничения ресурсов и команды поиска:
 [воркеры и векторизация](workers.md).
-
-GitHub Actions (`.github/workflows/ci.yml`) на каждый push в `main` и pull request
-проверяет frontend, backend и ML на искусственных данных.
 
 ## Проверки backend
 
