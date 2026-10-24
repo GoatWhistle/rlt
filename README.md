@@ -170,6 +170,8 @@ docker compose run --rm sync-job sync
   проверки; единое ранжирование — следующий шаг.
 - **Замеры скорости сделаны на синтетике.** Миллион реальных предложений не проверялся.
 
-## Лицензия
-
-[MIT](LICENSE)
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/mark.dark.png"><img src="docs/readme/mark.light.png" alt="" width="32" height="32"></picture>
+  <br>
+  <sub>Команда Ullax, хакатон RLT и Комитета по государственному заказу Санкт-Петербурга, 2026. Лицензия <a href="LICENSE">MIT</a>.</sub>
+</p>
