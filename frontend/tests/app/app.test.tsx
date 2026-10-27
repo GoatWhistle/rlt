@@ -58,7 +58,7 @@ describe("the application shell", () => {
   it("links to the repository in a new tab next to the language switch", async () => {
     renderApp()
     const repository = await screen.findByRole("link", { name: en("app.repository") })
-    expect(repository).toHaveAttribute("href", "https://github.com/Ullax/rlt")
+    expect(repository).toHaveAttribute("href", "https://github.com/GoatWhistle/rlt")
     expect(repository).toHaveAttribute("target", "_blank")
     expect(repository).toHaveAttribute("rel", "noopener noreferrer")
   })
